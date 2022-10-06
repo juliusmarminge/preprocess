@@ -1,6 +1,6 @@
 import { env } from "./src/env/server.mjs";
 
-console.log(env.NEXTAUTH_URL);
+console.log("URL:", env.NEXTAUTH_URL);
 
 /**
  * Don't be scared of the generics here.
